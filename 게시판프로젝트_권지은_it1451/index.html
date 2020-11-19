@@ -1,0 +1,56 @@
+    <!DOCTYPE html>
+    <html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cat Board</title>
+        <link rel="stylesheet" href="src/style.css">
+    </head>
+    <body>
+        
+        <div class="main">
+            <div class="grid1">
+                
+                <a href="index.html"><img src="src/CatBoard_logo.jpg"  height="200" width="300"></a>
+                
+                
+                <div class="login">
+                    <h3>Cat Board</h3>
+                    <div class="grid1_1">
+                        <input name="txtID" type="text" id="txtID" placeholder="닉네임" />
+                        <br>
+                        <input name="txtPW" type="password" id="txtPW" placeholder="비밀번호" />
+                        <br>
+                        <input onclick="SaveStorage();" type="button" value="Join" id="btn"/>
+                        
+                    </div>
+                    <div id="divStorage"></div>
+                    
+                </div>
+
+            </div>
+            <div class="grid2">
+                <div class="cat_info">
+                    <a href="cat_info.html"  ><h4>고양이 지식</h4></a>
+                    <br>
+                    꼭 알아야할 지식
+                </div>
+                <div class="cat_adopt">
+                    <a  onclick="login();" style="cursor:pointer;"><h4>고양이 입양 </h4></a>
+                    <br>
+                    사지말고 입양하세요.
+                </div>
+                <div class="cat_qa">
+                    <a onclick="login();" style="cursor:pointer;"><h4>고양이 Q&A</h4></a>
+                    <br>
+                    무엇이든 물어보세요.
+                </div>
+
+            </div>
+        </div>
+    
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Nanum+Gothic&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="src/main.js"></script>
+    </body>
+    </html>
